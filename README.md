@@ -1,5 +1,5 @@
 # Hafner.Compatibility.NullableReferenceTypeAttributes
-Backport of the nullable reference type attributes to frameworks that do not provide them.
+Defines the nullable reference type attributes of namespace System.Diagnostics.CodeAnalysis for frameworks that do not include them, namely .NET Framework 2.0 to 4.8, .NET Core 1.0 to 2.2 and .NET Standard 1.0 to 2.2.
 
 Usage:
 

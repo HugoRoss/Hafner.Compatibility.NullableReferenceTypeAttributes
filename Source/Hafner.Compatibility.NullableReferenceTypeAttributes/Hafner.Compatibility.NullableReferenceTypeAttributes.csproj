@@ -21,14 +21,14 @@
     <!--    1.2.3  =>  1.2.4  if no interface changes have been performed (patch, bug-fix) -->
     <!--    1.2.3  =>  1.3.0  if new interfaces have been added (feature release) -->
     <!--    1.2.3  =>  2.0.0  if existing interfaces have been modified (breaking changes) -->
-    <Version>1.0.2</Version>
+    <Version>1.0.0</Version>
     <!-- Set to <major>.<minor>.0.0 of the <Version> element -->
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <!-- Set to <major>.<minor>.<patch>.0 of the <Version> element -->
-    <FileVersion>1.0.2.0</FileVersion>
-    <Copyright>Copyright (C) 2022 by Christoph Hafner</Copyright>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Copyright>Copyright (C) 2022 by Christoph Hafner (this NuGet package), .NET Foundation (original attribute definition).</Copyright>
     <Description>
-      Defines the nullable reference type attributes of namespace System.Diagnostics.CodeAnalysis for frameworks that do not include it, namely .NET Framework 2.0 to 4.8, .NET Core 1.0 to 2.2 and .NET Standard 1.0 to 2.2.
+      Defines the nullable reference type attributes of namespace System.Diagnostics.CodeAnalysis for frameworks that do not include them, namely .NET Framework 2.0 to 4.8, .NET Core 1.0 to 2.2 and .NET Standard 1.0 to 2.2.
 
       Usage:
 
@@ -58,10 +58,10 @@
       I had to check it in like this as otherwise the condition got interpreted, sorry about that.
     </Description>
     <!--<PackageIcon>ToBeDefined.png</PackageIcon>-->
-    <PackageTags>ExtensionAttribute System.Runtime.CompilerServices.ExtensionAttribute Hafner.Compatibility.ExtensionAttribute</PackageTags>
-    <PackageReleaseNotes>Usage added to package description.</PackageReleaseNotes>
-    <PackageProjectUrl>https://github.com/HugoRoss/Hafner.Compatibility.ExtensionAttribute</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/HugoRoss/Hafner.Compatibility.ExtensionAttribute</RepositoryUrl>
+    <PackageTags>NullableReferenceTypeAttributes NullableAttributes Nullable System.Diagnostics.CodeAnalysis Hafner.Compatibility.NullableReferenceTypeAttributes AllowNull AllowNullAttribute DisallowNull DisallowNullAttribute DoesNotReturn DoesNotReturnAttribute DoesNotReturnIf DoesNotReturnIfAttribute MaybeNull MaybeNullAttribute MaybeNullWhen MaybeNullWhenAttribute MemberNotNull MemberNotNullAttribute MemberNotNullWhen MemberNotNullWhenAttribute NotNull NotNullAttribute NotNullIfNotNull NotNullIfNotNullAttribute NotNullWhen NotNullWhenAttribute</PackageTags>
+    <PackageReleaseNotes>Initial release.</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/HugoRoss/Hafner.Compatibility.NullableReferenceTypeAttributes</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/HugoRoss/Hafner.Compatibility.NullableReferenceTypeAttributes</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
   </PropertyGroup>
   <PropertyGroup Condition="$(ConfigurationsThatPublish.Contains('|$(Configuration)|'))">
